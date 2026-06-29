@@ -1,0 +1,11 @@
+21:39:56.284 [main] ERROR com.cognizant.Exercise1 - This is an error message
+21:39:56.286 [main] WARN  com.cognizant.Exercise1 - This is a warning message
+21:46:36.401 [main] ERROR com.cognizant.Exercise1 - This is an error message
+21:46:36.403 [main] WARN  com.cognizant.Exercise1 - This is a warning message
+21:47:37.950 [main] INFO  com.cognizant.Exercise2 - Student Name: Sindhu
+21:47:37.954 [main] INFO  com.cognizant.Exercise2 - Marks: 95
+21:47:37.954 [main] INFO  com.cognizant.Exercise2 - Student Sindhu scored 95 marks.
+21:48:21.851 [main] DEBUG com.cognizant.Exercise3 - This is a DEBUG message
+21:48:21.854 [main] INFO  com.cognizant.Exercise3 - This is an INFO message
+21:48:21.854 [main] WARN  com.cognizant.Exercise3 - This is a WARN message
+21:48:21.881 [main] ERROR com.cognizant.Exercise3 - This is an ERROR message
