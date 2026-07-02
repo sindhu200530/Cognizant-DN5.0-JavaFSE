@@ -6,8 +6,18 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="address" class="com.cognizant.Address">
+
+        <property name="city" value="Chennai"/>
+
+    </bean>
+
     <bean id="employee" class="com.cognizant.Employee">
+
         <property name="name" value="Sindhu"/>
+
+        <property name="address" ref="address"/>
+
     </bean>
 
 </beans>
