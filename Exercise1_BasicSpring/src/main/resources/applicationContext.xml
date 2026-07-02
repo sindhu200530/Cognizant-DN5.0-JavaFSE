@@ -15,9 +15,16 @@
     </bean>
 
     <bean id="employee" class="com.cognizant.Employee">
-        <property name="name" value="Sindhu"/>
+
+        <!-- Constructor Injection -->
+        <constructor-arg value="Sindhu"/>
+
+        <!-- Setter Injection -->
         <property name="address" ref="address"/>
+
+        <!-- Setter Injection -->
         <property name="department" ref="department"/>
+
     </bean>
 
 </beans>
